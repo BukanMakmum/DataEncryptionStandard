@@ -10,6 +10,7 @@ Implementasi sederhana algoritma Data Encryption Standard (DES) menggunakan Pyth
 - [Penggunaan](#penggunaan)
 - [Tangkapan Layar](#tangkapan-layar)
 - [Lisensi](#lisensi)
+- [Kontak](#kontak)
 
 ## Pendahuluan
 
@@ -65,4 +66,10 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 
 Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE) untuk detailnya.
 
-© 2023 @BukanMakmum. [Hubungi pengembang](mailto:imamsayuti.usk@gmail.com).
+## Kontak
+
+Untuk pertanyaan atau umpan balik, silakan hubungi pengembang:
+- Nama: [Bukan Makmum]
+- Email: [imamsyt22@mhs.usk.ac.id]
+
+© 2023 @BukanMakmum.
