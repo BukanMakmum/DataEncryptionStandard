@@ -27,13 +27,13 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 1. Clone repositori ini:
 
    ```bash
-   git clone https://github.com/your-username/des-encryption.git
+   git clone https://github.com/BukanMakmum/DataEncryptionStandard.git
    ```
 
 2. Masuk ke direktori proyek:
 
    ```bash
-   cd des-encryption
+   cd DataEncryptionStandard
    ```
 
 3. Instal pustaka yang diperlukan:
