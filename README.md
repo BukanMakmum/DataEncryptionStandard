@@ -1,6 +1,5 @@
 Anda dapat membuat README untuk proyek GitHub berdasarkan kode yang telah Anda bagikan. Berikut ini adalah contoh README yang dapat Anda gunakan sebagai panduan:
 
-```markdown
 # DES Encryption and Decryption
 
 A simple implementation of the Data Encryption Standard (DES) algorithm using Python and the Tkinter library for the graphical user interface.
