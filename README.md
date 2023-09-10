@@ -1,3 +1,6 @@
+Berikut adalah README yang diperbarui dengan daftar modul yang diperlukan dan informasi tambahan:
+
+```markdown
 # Aplikasi Enkripsi dan Dekripsi DES
 
 Aplikasi ini adalah implementasi enkripsi dan dekripsi DES (Data Encryption Standard) dengan antarmuka grafis menggunakan Tkinter. DES adalah salah satu algoritma enkripsi klasik yang digunakan untuk melindungi keamanan data.
@@ -15,15 +18,31 @@ Aplikasi ini adalah implementasi enkripsi dan dekripsi DES (Data Encryption Stan
 ## Cara Menggunakan
 
 1. Jalankan aplikasi dengan menjalankan kode Python (`main.py`).
+
+```bash
+python main.py
+```
+
 2. Masukkan teks terbuka yang akan dienkripsi atau teks sandi DES yang akan didekripsi.
+
 3. Masukkan kunci enkripsi dalam format hex (16 karakter).
+
 4. Tekan tombol "Enkripsi" untuk mengenkripsi teks terbuka atau "Dekripsi" untuk mendekripsi teks sandi.
+
 5. Hasil enkripsi/dekripsi akan ditampilkan di area output.
 
 ## Persyaratan
 
 - Python 3.x
 - Modul-modul yang diperlukan terdapat dalam kode, Anda dapat menginstalnya dengan menjalankan `pip install tk ttkthemes` sebelum menjalankan aplikasi.
+
+## Cara Instalasi Modul yang Diperlukan
+
+Sebelum menjalankan aplikasi, pastikan Anda telah menginstal modul-modul yang diperlukan dengan menjalankan perintah berikut:
+
+```bash
+pip install tk ttkthemes
+```
 
 ## Pengembang
 
@@ -39,10 +58,10 @@ Aplikasi ini dilisensikan di bawah lisensi MIT. Lihat berkas `LICENSE` untuk det
 Jika Anda ingin berkontribusi pada pengembangan proyek ini, Anda dapat melakukan hal berikut:
 
 1. Fork proyek ini.
-2. Buat cabang baru (`git checkout -b fitur-anda`)
+2. Buat cabang baru (`git checkout -b fitur-anda`).
 3. Lakukan perubahan yang diinginkan.
-4. Commit perubahan Anda (`git commit -m 'Tambahkan fitur baru'`)
-5. Push ke cabang Anda (`git push origin fitur-anda`)
+4. Commit perubahan Anda (`git commit -m 'Tambahkan fitur baru'`).
+5. Push ke cabang Anda (`git push origin fitur-anda`).
 6. Buat permintaan tarik (pull request) ke repositori ini.
 
 ## Dukungan
@@ -54,3 +73,6 @@ Jika Anda mengalami masalah atau memiliki pertanyaan, jangan ragu untuk [membuka
 Kami ingin mengucapkan terima kasih kepada semua kontributor yang telah berpartisipasi dalam pengembangan aplikasi ini.
 
 © 2023 [Nama Anda]
+```
+
+Pastikan untuk mengganti `[Nama Anda]`, `[Email Anda]`, dan `[username/repo]` sesuai dengan informasi Anda dan URL repositori yang benar.
