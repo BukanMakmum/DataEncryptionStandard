@@ -47,7 +47,7 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 1. Jalankan aplikasinya:
 
    ```bash
-   python main.py
+   DataEncryptionStandard.py
    ```
 
 2. Masukkan teks biasa/teks sandi dan kunci dalam format heksadesimal.
@@ -70,4 +70,4 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE) u
 
 ---
 
-© 2023 @BukanMakmum. [Hubungi penulis](mailto:imamsayuti.usk@gmail.com).
+© 2023 @BukanMakmum. [Hubungi pengembang](mailto:imamsayuti.usk@gmail.com).
