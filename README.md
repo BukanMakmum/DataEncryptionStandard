@@ -1,75 +1,77 @@
-Berikut adalah README yang diperbarui dengan daftar modul yang diperlukan dan informasi tambahan:
+Anda dapat membuat README untuk proyek GitHub berdasarkan kode yang telah Anda bagikan. Berikut ini adalah contoh README yang dapat Anda gunakan sebagai panduan:
+
+```markdown
+# DES Encryption and Decryption
+
+A simple implementation of the Data Encryption Standard (DES) algorithm using Python and the Tkinter library for the graphical user interface.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The Data Encryption Standard (DES) is a symmetric-key block cipher that was widely used for data encryption in the past. This project provides a simple GUI application for encrypting and decrypting text using DES.
+
+## Features
+
+- Encrypt plaintext with a provided key in hexadecimal format.
+- Decrypt ciphertext with the same key used for encryption.
+- User-friendly graphical interface.
+
+## Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/des-encryption.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd des-encryption
+   ```
+
+3. Install the required libraries:
+
+   ```bash
+   pip install tkinter ttkthemes
+   ```
+
+## Usage
+
+1. Run the application:
+
+   ```bash
+   python main.py
+   ```
+
+2. Enter the plaintext/ciphertext and the key in hexadecimal format.
+
+3. Click the "Encrypt" or "Decrypt" button as needed.
+
+4. The result will be displayed in the "Result" field.
+
+## Screenshots
+
+![Hasil](https://github.com/BukanMakmum/DataEncryptionStandard/assets/32379649/9cc16ecd-dde3-4d59-b90e-e5534e09d0ec)
 
 
-# Aplikasi Enkripsi dan Dekripsi DES
+## Contributing
 
-Aplikasi ini adalah implementasi enkripsi dan dekripsi DES (Data Encryption Standard) dengan antarmuka grafis menggunakan Tkinter. DES adalah salah satu algoritma enkripsi klasik yang digunakan untuk melindungi keamanan data.
+Contributions are welcome! If you would like to contribute to this project, please open an issue or create a pull request.
 
-![Tampilan Aplikasi](screenshot.png)
+## License
 
-## Fitur
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Enkripsi teks terbuka menjadi teks sandi DES.
-- Dekripsi teks sandi DES menjadi teks terbuka.
-- Menggunakan tabel kunci PC-1, tabel pergeseran bit, tabel substitusi S-Box, dan tabel permutasi.
-- Memungkinkan pengguna untuk memasukkan teks terbuka dan kunci enkripsi.
-- Tampilan tema modern menggunakan Ttkthemes.
+---
 
-## Cara Menggunakan
-
-1. Jalankan aplikasi dengan menjalankan kode Python (`main.py`).
-
-```bash
-python main.py
-```
-
-2. Masukkan teks terbuka yang akan dienkripsi atau teks sandi DES yang akan didekripsi.
-
-3. Masukkan kunci enkripsi dalam format hex (16 karakter).
-
-4. Tekan tombol "Enkripsi" untuk mengenkripsi teks terbuka atau "Dekripsi" untuk mendekripsi teks sandi.
-
-5. Hasil enkripsi/dekripsi akan ditampilkan di area output.
-
-## Persyaratan
-
-- Python 3.x
-- Modul-modul yang diperlukan terdapat dalam kode, Anda dapat menginstalnya dengan menjalankan `pip install tk ttkthemes` sebelum menjalankan aplikasi.
-
-## Cara Instalasi Modul yang Diperlukan
-
-Sebelum menjalankan aplikasi, pastikan Anda telah menginstal modul-modul yang diperlukan dengan menjalankan perintah berikut:
-
-```bash
-pip install tk ttkthemes
-```
-
-## Pengembang
-
-- Nama: [Nama Anda]
-- Email: [Email Anda]
-
-## Lisensi
-
-Aplikasi ini dilisensikan di bawah lisensi MIT. Lihat berkas `LICENSE` untuk detail lebih lanjut.
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada pengembangan proyek ini, Anda dapat melakukan hal berikut:
-
-1. Fork proyek ini.
-2. Buat cabang baru (`git checkout -b fitur-anda`).
-3. Lakukan perubahan yang diinginkan.
-4. Commit perubahan Anda (`git commit -m 'Tambahkan fitur baru'`).
-5. Push ke cabang Anda (`git push origin fitur-anda`).
-6. Buat permintaan tarik (pull request) ke repositori ini.
-
-## Dukungan
-
-Jika Anda mengalami masalah atau memiliki pertanyaan, jangan ragu untuk [membuka isu](https://github.com/username/repo/issues) atau menghubungi pengembang melalui email.
-
-## Terima Kasih
-
-Kami ingin mengucapkan terima kasih kepada semua kontributor yang telah berpartisipasi dalam pengembangan aplikasi ini.
-
-© 2023 [Nama Anda]
+© 2023 @BukanMakmum. [Contact the author](mailto:imamsayuti.usk@gmail.com).
