@@ -1,76 +1,73 @@
-Anda dapat membuat README untuk proyek GitHub berdasarkan kode yang telah Anda bagikan. Berikut ini adalah contoh README yang dapat Anda gunakan sebagai panduan:
+# Enkripsi dan Dekripsi DES
 
-# DES Encryption and Decryption
+Implementasi sederhana algoritma Data Encryption Standard (DES) menggunakan Python dan pustaka Tkinter untuk antarmuka pengguna grafis.
 
-A simple implementation of the Data Encryption Standard (DES) algorithm using Python and the Tkinter library for the graphical user interface.
+## Daftar Isi
 
-## Table of Contents
+- [Pendahuluan](#pendahuluan)
+- [Fitur](#fitur)
+- [Instalasi](#instalasi)
+- [Penggunaan](#penggunaan)
+- [Tangkapan Layar](#tangkapan-layar)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+## Pendahuluan
 
-## Introduction
+Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah banyak digunakan untuk enkripsi data. Proyek ini menyediakan aplikasi GUI sederhana untuk mengenkripsi dan mendekripsi teks menggunakan DES.
 
-The Data Encryption Standard (DES) is a symmetric-key block cipher that was widely used for data encryption in the past. This project provides a simple GUI application for encrypting and decrypting text using DES.
+## Fitur
 
-## Features
+- Mengenkripsi teks biasa dengan kunci dalam format heksadesimal.
+- Mendekripsi teks dengan menggunakan kunci yang sama yang digunakan untuk enkripsi.
+- Antarmuka grafis yang ramah pengguna.
 
-- Encrypt plaintext with a provided key in hexadecimal format.
-- Decrypt ciphertext with the same key used for encryption.
-- User-friendly graphical interface.
+## Instalasi
 
-## Installation
-
-1. Clone this repository:
+1. Clone repositori ini:
 
    ```bash
    git clone https://github.com/your-username/des-encryption.git
    ```
 
-2. Change into the project directory:
+2. Masuk ke direktori proyek:
 
    ```bash
    cd des-encryption
    ```
 
-3. Install the required libraries:
+3. Instal pustaka yang diperlukan:
 
    ```bash
    pip install tkinter ttkthemes
    ```
 
-## Usage
+## Penggunaan
 
-1. Run the application:
+1. Jalankan aplikasinya:
 
    ```bash
    python main.py
    ```
 
-2. Enter the plaintext/ciphertext and the key in hexadecimal format.
+2. Masukkan teks biasa/teks sandi dan kunci dalam format heksadesimal.
 
-3. Click the "Encrypt" or "Decrypt" button as needed.
+3. Klik tombol "Enkripsi" atau "Dekripsi" sesuai kebutuhan.
 
-4. The result will be displayed in the "Result" field.
+4. Hasil akan ditampilkan di bidang "Hasil".
 
-## Screenshots
+## Tangkapan Layar
 
-![Hasil](https://github.com/BukanMakmum/DataEncryptionStandard/assets/32379649/9cc16ecd-dde3-4d59-b90e-e5534e09d0ec)
+![Tangkapan Layar](https://github.com/BukanMakmum/DataEncryptionStandard/assets/32379649/9cc16ecd-dde3-4d59-b90e-e5534e09d0ec)
 
+## Kontribusi
 
-## Contributing
+Kontribusi sangat dialu-alukan! Jika Anda ingin berkontribusi pada proyek ini, silakan buka isu atau buat permintaan tarik (pull request).
 
-Contributions are welcome! If you would like to contribute to this project, please open an issue or create a pull request.
+## Lisensi
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE) untuk detailnya.
 
 ---
 
-© 2023 @BukanMakmum. [Contact the author](mailto:imamsayuti.usk@gmail.com).
+© 2023 @BukanMakmum. [Hubungi penulis](mailto:imamsayuti.usk@gmail.com).
