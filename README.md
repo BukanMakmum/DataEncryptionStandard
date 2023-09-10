@@ -39,7 +39,9 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 3. Instal pustaka yang diperlukan:
 
    ```bash
-   pip install tkinter ttkthemes
+   pip install tk
+   pip install ttkthemes
+
    ```
 
 ## Penggunaan
