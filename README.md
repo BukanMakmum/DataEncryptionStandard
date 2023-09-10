@@ -1,6 +1,6 @@
 Berikut adalah README yang diperbarui dengan daftar modul yang diperlukan dan informasi tambahan:
 
-```markdown
+
 # Aplikasi Enkripsi dan Dekripsi DES
 
 Aplikasi ini adalah implementasi enkripsi dan dekripsi DES (Data Encryption Standard) dengan antarmuka grafis menggunakan Tkinter. DES adalah salah satu algoritma enkripsi klasik yang digunakan untuk melindungi keamanan data.
@@ -73,6 +73,3 @@ Jika Anda mengalami masalah atau memiliki pertanyaan, jangan ragu untuk [membuka
 Kami ingin mengucapkan terima kasih kepada semua kontributor yang telah berpartisipasi dalam pengembangan aplikasi ini.
 
 © 2023 [Nama Anda]
-```
-
-Pastikan untuk mengganti `[Nama Anda]`, `[Email Anda]`, dan `[username/repo]` sesuai dengan informasi Anda dan URL repositori yang benar.
