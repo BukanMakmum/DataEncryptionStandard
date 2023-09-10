@@ -60,7 +60,7 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 
 ## Tangkapan Layar
 
-![Hasil](https://github.com/BukanMakmum/DataEncryptionStandard/assets/32379649/3f9ce335-3bfc-41bb-8a62-ee4ca9ad0177)
+![Hasil](https://github.com/BukanMakmum/DataEncryptionStandard/assets/32379649/f08a70c5-3f0c-4a82-9102-16401a417820)
 
 ## Lisensi
 
