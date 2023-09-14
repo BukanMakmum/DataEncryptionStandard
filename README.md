@@ -24,9 +24,21 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 - Antarmuka grafis yang ramah pengguna.
 - Contoh Inpu dan Output
   ```bash
-  Plaintext: 0123456789ABCDEF
-  Key: 6281377383082ABC
-  Ciphertext: A157D624401FAF07
+  Plaintext:   0123456789ABCDEF
+  Key:         6281377383082ABC
+  Ciphertext:  A157D624401FAF07
+
+  Plaintext:   0123456789ABCDEF
+  Key:         133457799BBCDFF1
+  Ciphertext:  85E813540F0AB405
+
+  Plaintext:   434F4D5055544552
+  Key:         133457799BBCDFF1
+  Ciphertext:  56F1D5C852AF813F
+
+  Plaintext:   675A69675E5A6B5A
+  Key:         5B5A57676A56676E
+  Ciphertext:  974AFFBF86022D1F
    ```
 
 ## Instalasi
