@@ -6,18 +6,21 @@ from ttkthemes import ThemedStyle
 import webbrowser
 
 # Initial Permutation (IP) table
+# Tabel IP untuk mengawali algoritma DES
 IP = [58, 50, 42, 34, 26, 18, 10, 2, 60, 52, 44, 36, 28, 20, 12, 4,
       62, 54, 46, 38, 30, 22, 14, 6, 64, 56, 48, 40, 32, 24, 16, 8,
       57, 49, 41, 33, 25, 17, 9, 1, 59, 51, 43, 35, 27, 19, 11, 3,
       61, 53, 45, 37, 29, 21, 13, 5, 63, 55, 47, 39, 31, 23, 15, 7]
 
 # Final Permutation (FP) table
+# Tabel FP untuk mengakhiri algoritma DES
 FP = [40, 8, 48, 16, 56, 24, 64, 32, 39, 7, 47, 15, 55, 23, 63, 31,
       38, 6, 46, 14, 54, 22, 62, 30, 37, 5, 45, 13, 53, 21, 61, 29,
       36, 4, 44, 12, 52, 20, 60, 28, 35, 3, 43, 11, 51, 19, 59, 27,
       34, 2, 42, 10, 50, 18, 58, 26, 33, 1, 41, 9, 49, 17, 57, 25]
 
 # Tabel Kompresi Kunci PC-1
+# Tabel PC-1 untuk menghasilkan kunci sub
 PC1 = [57, 49, 41, 33, 25, 17, 9,
        1, 58, 50, 42, 34, 26, 18,
        10, 2, 59, 51, 43, 35, 27,
@@ -28,6 +31,7 @@ PC1 = [57, 49, 41, 33, 25, 17, 9,
        21, 13, 5, 28, 20, 12, 4]
 
 # Tabel Kompresi Kunci PC-2
+# Tabel PC-2 untuk menghasilkan subkunci
 PC2 = [14, 17, 11, 24, 1, 5,
        3, 28, 15, 6, 21, 10,
        23, 19, 12, 4, 26, 8,
@@ -38,11 +42,13 @@ PC2 = [14, 17, 11, 24, 1, 5,
        46, 42, 50, 36, 29, 32]
 
 # Expansion Box (EBox) table
+# Tabel EBox untuk mengembang bit dari setengah bagian kanan
 EBox = [32, 1, 2, 3, 4, 5, 4, 5, 6, 7, 8, 9, 8, 9, 10, 11,
         12, 13, 12, 13, 14, 15, 16, 17, 16, 17, 18, 19, 20, 21, 20, 21,
         22, 23, 24, 25, 24, 25, 26, 27, 28, 29, 28, 29, 30, 31, 32, 1]
 
 # S-Box tables
+# Tabel S-Box digunakan untuk substitusi bit-bit
 SBox = [
     # S1
     [14, 4, 13, 1, 2, 15, 11, 8, 3, 10, 6, 12, 5, 9, 0, 7,
@@ -275,20 +281,28 @@ def decrypt_text():
 
 # Fungsi untuk mereset input dan output
 def reset_fields():
+    # Menonaktifkan tombol "Salin"
     copy_button.config(state="disabled")
+    
+    # Menghapus konten dari elemen input, kunci, dan output heksadesimal
     input_entry.delete(0, tk.END)
     key_entry.delete(0, tk.END)
     hex_output_entry.delete(0, tk.END)
+    
+    # Mengosongkan teks biner output
     bin_output_text["text"] = ""
 
 # Fungsi untuk mengatur jendela di tengah layar
 def center_window(window, width, height):
+    # Mendapatkan lebar dan tinggi layar
     screen_width = window.winfo_screenwidth()
     screen_height = window.winfo_screenheight()
     
+    # Menghitung posisi x dan y untuk menempatkan jendela di tengah layar
     x = (screen_width - width) // 2
     y = (screen_height - height) // 2
     
+    # Mengatur geometri jendela sesuai dengan posisi dan ukuran yang telah dihitung
     window.geometry(f"{width}x{height}+{x}+{y}")
 
 # Membuat jendela tkinter
@@ -330,13 +344,19 @@ title_label.pack(pady=(20, 0))
 input_frame = ttk.Frame(window)
 input_frame.pack(pady=10)  # Padding atas 10
 
+# Membuat label "Plaintext/Ciphertext" pada frame input
 text_label = ttk.Label(input_frame, text="Plaintext/Ciphertext:")
 text_label.grid(row=0, column=0, padx=10, pady=10, sticky="w")
+
+# Membuat entri input untuk "Plaintext/Ciphertext" pada frame input
 input_entry = ttk.Entry(input_frame)
 input_entry.grid(row=0, column=1, padx=10, pady=10)
 
+# Membuat label "Key (Hex)" pada frame input
 key_label = ttk.Label(input_frame, text="Key (Hex):")
 key_label.grid(row=1, column=0, padx=10, pady=10, sticky="w")
+
+# Membuat entri input untuk "Key (Hex)" pada frame input
 key_entry = ttk.Entry(input_frame)
 key_entry.grid(row=1, column=1, padx=10, pady=10)
 
@@ -344,12 +364,15 @@ key_entry.grid(row=1, column=1, padx=10, pady=10)
 button_frame = ttk.Frame(window)
 button_frame.pack(pady=10)  # Padding atas 10
 
+# Membuat tombol "Reset" pada frame tombol dan menghubungkannya dengan fungsi reset_fields
 reset_button = ttk.Button(button_frame, text="Reset", command=reset_fields)
 reset_button.grid(row=0, column=0, padx=10, pady=10)
 
+# Membuat tombol "Dekripsi" pada frame tombol dan menghubungkannya dengan fungsi decrypt_text
 decrypt_button = ttk.Button(button_frame, text="Dekripsi", command=decrypt_text)
 decrypt_button.grid(row=0, column=1, padx=10, pady=10)
 
+# Membuat tombol "Enkripsi" pada frame tombol dan menghubungkannya dengan fungsi encrypt_text
 encrypt_button = ttk.Button(button_frame, text="Enkripsi", command=encrypt_text)
 encrypt_button.grid(row=0, column=2, padx=10, pady=10)
 
