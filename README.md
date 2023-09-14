@@ -18,10 +18,15 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 
 ## Fitur
 
-- Mengenkripsi Plaintext 16 digit heksadesimal dengan kunci dalam format heksadesimal.
-- Mendekripsi Ciphertext 16 digit heksadesimal dengan menggunakan kunci yang sama yang digunakan untuk enkripsi.
-- Menampilkan Debug Result (Khusus v2.0 setelahnya) Enkripsi dan Dekripsi (Kebenaran hasil debug masih dalam penyempurnaan)
-- Antarmuka grafis yang ramah pengguna.
+- Enkripsi dan Dekripsi menggunakan DES;
+- Input berupa 16 digit Heksadesimal;
+- Output berupa 16 digit Heksadesimal dan 64 bit dalam biner;
+- Tombol Salin untuk hasil biner Enkripsi/Dekripsi;
+- Validasi input key dan teks plaintext/ciphertext;
+- Menampilkan dan simpan hasil Debug Result Enkripsi dan Dekripsi (Khusus v2.0.beta setelahnya)
+- Reset input; dan
+- Tampilan modern menggunakan tkinter/antarmuka grafis yang ramah pengguna.
+  
 - Contoh Inpu dan Output
   ```bash
   Plaintext:   0123456789ABCDEF
