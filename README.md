@@ -20,7 +20,7 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 
 - Mengenkripsi Plaintext 16 digit heksadesimal dengan kunci dalam format heksadesimal.
 - Mendekripsi Ciphertext 16 digit heksadesimal dengan menggunakan kunci yang sama yang digunakan untuk enkripsi.
-- Menampilkan Debug Result Enkripsi dan Dekripsi (Kebenaran hasil debug masih dalam penyempurnaan)
+- Menampilkan Debug Result (Khusus v2.0 setelahnya) Enkripsi dan Dekripsi (Kebenaran hasil debug masih dalam penyempurnaan)
 - Antarmuka grafis yang ramah pengguna.
 - Contoh Inpu dan Output
   ```bash
@@ -68,7 +68,8 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
 1. Jalankan aplikasinya:
 
    ```bash
-   DataEncryptionStandard.py atau DES Versi Education x.x.exe
+   DESvx.x.py atau DESvx.x.exe
+   x.x = nomor versi
    ```
 
 2. Masukkan teks biasa/teks sandi dan kunci dalam format heksadesimal.
