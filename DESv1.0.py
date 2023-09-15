@@ -297,13 +297,14 @@ def center_window(window, width, height):
     # Mendapatkan lebar dan tinggi layar
     screen_width = window.winfo_screenwidth()
     screen_height = window.winfo_screenheight()
-    
+
     # Menghitung posisi x dan y untuk menempatkan jendela di tengah layar
     x = (screen_width - width) // 2
     y = (screen_height - height) // 2
-    
+
     # Mengatur geometri jendela sesuai dengan posisi dan ukuran yang telah dihitung
     window.geometry(f"{width}x{height}+{x}+{y}")
+    window.resizable(False, False)  # Menonaktifkan kemampuan untuk merubah ukuran jendela
 
 # Membuat jendela tkinter
 window = tk.Tk()
