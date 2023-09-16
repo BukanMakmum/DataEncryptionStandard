@@ -14,7 +14,7 @@ Implementasi sederhana algoritma Data Encryption Standard (DES) menggunakan Pyth
 
 ## Pendahuluan
 
-Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah banyak digunakan untuk enkripsi data. Proyek ini menyediakan aplikasi GUI sederhana untuk mengenkripsi dan mendekripsi teks menggunakan DES.
+Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah banyak digunakan untuk enkripsi data. Proyek ini menyediakan aplikasi GUI sederhana untuk mengenkripsi dan mendekripsi teks menggunakan DES. Data Encryption Standard (DES) Education merupakan source code yang dikembangkan untuk pembelajaran proses enkripsi dan dekripsi menggunakan DES.
 
 ## Fitur
 
