@@ -77,7 +77,7 @@ Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah ban
    x.x = nomor versi
    ```
 
-2. Masukkan teks biasa/teks sandi dan kunci dalam format heksadesimal.
+2. Masukkan 16 digit heksadesimal (64 bit) Plaintext/Ciphertext dan kunci.
 
 3. Klik tombol "Enkripsi" atau "Dekripsi" sesuai kebutuhan.
 
