@@ -1,6 +1,6 @@
 # Enkripsi dan Dekripsi DES
 
-Implementasi sederhana algoritma Data Encryption Standard (DES) menggunakan Python dan pustaka Tkinter untuk antarmuka pengguna grafis.
+Implementasi sederhana algoritma Data Encryption Standard (DES) menggunakan Python dan pustaka Tkinter untuk antarmuka pengguna grafis. Data Encryption Standard (DES) versi Education merupakan skrip yang dikembangkan untuk pembelajaran proses enkripsi dan dekripsi menggunakan DES.
 
 ## Daftar Isi
 
@@ -14,7 +14,8 @@ Implementasi sederhana algoritma Data Encryption Standard (DES) menggunakan Pyth
 
 ## Pendahuluan
 
-Data Encryption Standard (DES) adalah cipher blok kunci simetris yang pernah banyak digunakan untuk enkripsi data. Proyek ini menyediakan aplikasi GUI sederhana untuk mengenkripsi dan mendekripsi teks menggunakan DES. Data Encryption Standard (DES) Education merupakan skrip yang dikembangkan untuk pembelajaran proses enkripsi dan dekripsi menggunakan DES.
+Algoritma DES (Data Encryption Standard) adalah sebuah algoritma kriptografi kunci simetris yang pertama kali dikembangkan pada tahun 1970-an dan menjadi standar enkripsi yang digunakan secara luas. DES dirancang untuk mengamankan kerahasiaan data dengan mengubahnya menjadi bentuk yang tidak dapat dibaca tanpa kunci enkripsi yang sesuai. Meskipun DES saat ini dianggap kurang aman karena panjang kunci yang terbatas, memahami konsep dasarnya masih penting dalam memahami kriptografi dan sejarah perkembangan algoritma enkripsi.
+DES menggunakan kunci simetris, yang berarti kunci yang sama digunakan baik untuk enkripsi maupun dekripsi.  DES menggunakan kunci enkripsi dengan panjang 56 bit, tetapi hanya 48 bit yang digunakan secara efektif dalam proses enkripsi. Kunci ini digunakan untuk menghasilkan subkunci putaran. DES mengenkripsi data dalam bentuk blok, di mana setiap blok pesan yang akan dienkripsi memiliki panjang 64 bit. Pesan yang lebih panjang dibagi menjadi blok-blok 64 bit dan kemudian dienkripsi secara terpisah. Proses enkripsi DES melibatkan 16 putaran enkripsi yang berulang. Pada setiap putaran, blok pesan diubah dengan menggunakan subkunci yang dihasilkan dari kunci utama. Setiap putaran melibatkan operasi-operasi seperti substitusi dan permutasi untuk mencampuradukkan data. Sebelum putaran pertama dan setelah putaran ke-16, terjadi inisialisasi awal (initial permutation) dan permutasi akhir (final permutation) pada blok pesan. Inisialisasi awal mengatur data awal ke dalam urutan tertentu, sedangkan permutasi akhir mengubahnya kembali ke urutan aslinya.
 
 ## Fitur
 
