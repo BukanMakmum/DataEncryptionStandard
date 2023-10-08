@@ -521,6 +521,7 @@ def center_window(window, width, height):
 window = tk.Tk()
 window.title("Data Encryption Standard")
 app_version = "Education 2.0.beta"
+window.configure(bg="#2596be")
 
 # Ganti favicon dengan file ikon yang sesuai
 #window.iconbitmap("favicon.ico")  # Ganti "favicon.ico" dengan path ke file ikon Anda
@@ -540,7 +541,11 @@ center_window(window, window_width, window_height)
 
 # Menggunakan tema modern
 style = ThemedStyle(window)
-style.set_theme("plastik")
+style.set_theme("clam")
+
+# Mengubah warna latar belakang jendela
+style.configure('TFrame', background=window.cget('bg'))
+style.configure('TLabel', background=window.cget('bg'))
 
 # Mendapatkan direktori saat ini di mana skrip berjalan
 current_directory = os.path.dirname(__file__)
@@ -556,11 +561,11 @@ window.iconbitmap(default=favicon_path)
 judul_jendela = window.title()
 
 # Label judul dengan font yang lebih besar
-title_label = ttk.Label(window, text=judul_jendela, font=("Helvetica", 14, "bold"))
+title_label = ttk.Label(window, text=judul_jendela, font=("Helvetica", 14, "bold"), background=window.cget('bg'))
 title_label.pack(pady=(20, 5))  # Padding atas 20, bawah 5
 
 # Label versi dengan font yang lebih kecil
-version_label = ttk.Label(window, text=f"Versi {app_version}", font=("Helvetica", 10))
+version_label = ttk.Label(window, text=f"Versi {app_version}", font=("Helvetica", 10), background=window.cget('bg'))
 version_label.pack()
 
 # Agar label versi berada di bawah label judul
@@ -799,7 +804,7 @@ file_menu.add_command(label="Exit", command=exit_app)
 menubar.add_command(label="About", command=show_about_info)
 
 # Menambahkan keterangan hak cipta di tengah bawah
-copyright_label = ttk.Label(window, text="© 2023 BukanMakmum.", font=("Helvetica", 8, "bold"), foreground="grey", cursor="hand2")
+copyright_label = ttk.Label(window, text="© 2023 BukanMakmum.", font=("Helvetica", 8, "bold"), foreground="#fff", cursor="hand2", background=window.cget('bg'))
 copyright_label.pack(side=tk.BOTTOM, pady=(0, 10), fill=tk.X)
 
 # Mengatur teks hak cipta menjadi rata tengah horizontal
